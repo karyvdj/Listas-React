@@ -10,7 +10,7 @@ export default class Lista extends React.Component{
     });
     return(
       <ul>
-        <h2>{this.props.tituloLista}</h2>
+        <h4>{this.props.tituloLista}</h4>
         {arregloDeLis}
       </ul>
     )
